@@ -1,0 +1,25 @@
+.row{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:purple;
+	height:550px;
+	width:100%;
+	gap:30px;
+	flex-wrap:wrap;
+}
+.row .col{
+	width:250px;
+	height:100px;
+	background:pink;
+		
+}
+.row .col1{
+	flex-grow:2;
+}
+.row .col2{
+	flex-grow:1;
+}
+.row .col3{
+	flex-grow:3;
+}
